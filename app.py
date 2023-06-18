@@ -25,18 +25,6 @@ with st.sidebar:
     ''')
     add_vertical_space(3)
 
-    
-    # filelist=[]
-    # for root, dirs, files in os.walk("10K_Annual_Reports/"):
-    #       for file in files:
-    #              filename=os.path.join(root, file)
-    #              filelist.append(filename)
-    # st.write('## 10-K reports present:')
-    # for file in filelist:
-    #     st.write(file.split('10K_Annual_Reports/')[1])
-
-    # add_vertical_space(1)
-
     st.write('Made by [Prashant Saikia](https://github.com/prashantsaikia)')
  
 load_dotenv()
