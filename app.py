@@ -1,5 +1,5 @@
 import streamlit as st
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import pickle
 from PyPDF2 import PdfReader
 from streamlit_extras.add_vertical_space import add_vertical_space
@@ -27,7 +27,7 @@ with st.sidebar:
 
     st.write('Made by [Prashant Saikia](https://github.com/prashantsaikia)')
  
-load_dotenv()
+# load_dotenv()
 
 os.environ['OPENAI_API_KEY'] = os.getenv("OPENAI_API_KEY")
  
