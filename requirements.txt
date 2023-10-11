@@ -2,3 +2,4 @@ PyPDF2
 streamlit_extras
 langchain
 openai
+tiktoken
